@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Learn JavaScript</title>
+    <script>
+      // Code One
+      // document.getElementById("el").style.color = "red";
+    //won't work because of the order as it is before h1 with id "el"
+    </script>
+    <script>
+      // Code Two
+      window.onload = function () {
+        document.getElementById("el").style.color = "red";
+      };
+    </script>
+  </head>
+  <body>
+    <h1 id="el">Page Title</h1>
+    <script>
+      // Code Three
+      document.getElementById("el").style.color = "red";
+    </script>
+    <!-- end of task1 -->
+    <!-- --------------------------------------------------------------------------------------------------------------------------------- -->
+  <!-- start task2 -->
+<script>
+  document.write("<h1>ELZERO</h1>");
+  document.querySelector("h1:last-child").style.color='blue';
+  document.querySelector("h1:last-child").style.fontSize='80px';
+  document.querySelector("h1:last-child").style.fontWeight='bold';
+  document.querySelector("h1:last-child").style.textAlign = 'center';
+  document.querySelector("h1:last-child").style.fontFamily='Arial';
+
+
+</script>
+  <!-- end task2 -->
+
+
+<script src="./taklif1.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
